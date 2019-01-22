@@ -25,7 +25,7 @@
     "require": {
         "php": ">=5.6.4",
         "mailjet/mailjet-apiv3-php": "^1.2",
-        "mailjet/mailjet-swiftmailer": "dev-master"
+        "mailjet/mailjet-swiftmailer": "dev-upgradeToSwiftmailer6"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -39,13 +39,6 @@
         }
     },
     
-  "repositories":
-  [
-    {
-      "type": "vcs",
-      "url": "https://github.com/codingcoast/MailjetSwiftMailer"
-    }
-  ],
     "config": {
         "sort-packages": true,
         "bin-dir": "bin"
